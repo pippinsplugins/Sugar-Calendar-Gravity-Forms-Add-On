@@ -140,8 +140,12 @@ function scgf_show_form( $event_id ) {
 
 		$title        = get_post_meta( $event_id, 'sc_event_gf_form_title', true ) ? true : false;
 		$description  = get_post_meta( $event_id, 'sc_event_gf_form_description', true ) ? true : false;
-		
-		gravity_form( $form, $title, $description, false, array( 'event_id' => $event_id, 'event_title' => get_the_title( $event_id ) ), true );
+		$field_values = apply_filters( 'scgf_gravity_form_field_values', array( 
+			'event_id'    => $event_id, 
+			'event_title' => get_the_title( $event_id ), 
+		) );
+
+		gravity_form( $form, $title, $description, false, $field_values, true );
 
 	}
 
