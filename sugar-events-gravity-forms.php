@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Sugar Event Calendar - Gravity Forms Integration
+Plugin Name: Sugar Events Calendar - Gravity Forms Integration
 Plugin URI: http://pippinsplugins.com
 Description: Allows you to create event registration forms with Gravity Forms
 Author: Pippin Williamson
