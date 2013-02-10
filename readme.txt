@@ -1,4 +1,4 @@
-=== Sugar Event Calendar - Gravity Forms Add-On ===
+=== Sugar Events Calendar - Gravity Forms Add-On ===
 Author URI: http://pippinsplugins.com
 Plugin URI: http://pippinsplugins.com/sugar-event-calendar-gravity-forms-add-on
 Contributors: mordauk
@@ -6,7 +6,7 @@ Donate link: http://pippinsplugins.com/support-the-site
 Tags: Gravity Forms, Events, Event Calendar, Sugar Event Calendar, Pippin Williamson, Pippin's Plugins, pippinsplugins, gravityforms
 Requires at least: 3.2
 Tested up to: 3.4.1
-Stable Tag: 1.0
+Stable Tag: 1.0.1
 
 Adds Gravity Forms integration to Sugar Event Calendar, great for event registration
 
@@ -44,11 +44,10 @@ You have to make sure you have added the hidden fields for Event ID and Event Ti
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
 
-* First offical release!
-
-== Upgrade Notice ==
+* Made the Gravity Forms options array filterable, props Luke McDonald
+* Improved some code formatting and data sanitation, props Luke McDonald
 
 = 1.0 =
 

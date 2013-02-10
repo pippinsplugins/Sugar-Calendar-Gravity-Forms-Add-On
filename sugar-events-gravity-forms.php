@@ -5,7 +5,7 @@ Plugin URI: http://pippinsplugins.com
 Description: Allows you to create event registration forms with Gravity Forms
 Author: Pippin Williamson
 Author URI: http://pippinsplugins.com
-Version: 1.0
+Version: 1.0.1
 */
 
 
